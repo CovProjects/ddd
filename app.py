@@ -27,7 +27,7 @@ city_options = [
     "bauru", "joao pessoa", "cuiaba", "joinville", "petropolis", "sao carlos", 
     "cotia", "macae", "americana", "guaruja", "maceio", "suzano", "campos dos goytacazes", 
     "caxias do sul", "volta redonda"]
-race_options = ['Black', 'White', 'Mixed / Other']  # Replace with your actual race options
+race_options = ['Black', 'White', 'Mixed / Other']
 
 city = st.selectbox('Select customer city', city_options)
 race = st.selectbox('Select race', race_options)
